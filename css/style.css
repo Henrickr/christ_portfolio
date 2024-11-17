@@ -387,3 +387,21 @@ a:hover{
 	text-decoration: underline;
 }
 
+.projet-iut1 {
+	background-color:#FFF;
+	display: flex;
+	justify-content: space-between 10%;
+	margin: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+
+	.projet-iut1 {
+		background-color:#FFF;
+		display: inline-block;
+		justify-content: space-between 10%;
+		margin: 20px;
+	}
+
+}
+
